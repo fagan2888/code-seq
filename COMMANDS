@@ -1,0 +1,2 @@
+python scripts/make_reads.py -n 10 apicius_short.txt > reads/apicius.reads
+python scripts/align_text.py reads/apicius.reads apicius_short.txt
